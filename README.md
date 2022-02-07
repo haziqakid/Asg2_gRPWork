@@ -33,7 +33,7 @@ The "logo" for the website may be seen on the top left of the website's most top
 
 ## Testing
 
-[in progress]
+tested API using https://www.metaweather.com/api/
 
 ## Credits
 
