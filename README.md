@@ -30,6 +30,7 @@ The "logo" for the website may be seen on the top left of the website's most top
 - .js   - to make web page interactive [in progress]
 - API   - provide access to current weather data [in progress]
 - JSON  - enables animation [in progress]
+- lottie - JSON-based animation file
 
 ## Testing
 
