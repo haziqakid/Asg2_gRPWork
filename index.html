@@ -4,30 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href=" https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- scroll btn-->
+    <title>Weather how?</title>
+
+
 
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <ul class="nav-links">
-                <li><a href="">Homepage </a></li>
-                <li><a href="">Weather Forecast </a></li>
-                <li><a href="">FAQ </a></li>
-                <li><a href="">About </a></li>
-            </ul>
-        </nav>
+    <!-- Scroll Top Button -->
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+    </svg>
+  </div>
 
-        <div class="content">
-            <h1>WEATHER</h1>
-            <form>
-                <input type="text" placeholder="&#8451; Enter City">
-                <button type="submit">Search</button>
-            </form>
+<!--Header-->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#hero"><h1><span>W</span>eather <span>F</span>orecast</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">Home</a></li>
+                    <li><a data-text="Forecast" href="./forecast.html">Forecast</a></li>
+                    <li><a href="#about" data-after="About">About</a></li>
+                    <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    <li><a data-text="FAQ" href="./contact.html">FAQ</a></li>
+                    <li><a data-text="APOD" href="./apod.html">APOD</a></li>
+                </ul>
+            </div>
         </div>
     </div>
+</section>
+<!--End of Header-->
     
+
+    <!--Cover Page -->
+    <section id="hero">
+    <div class="hero container">
+        <div>
+            <h1>on, <span></span></h1>
+            <h1>today's <span></span></h1>
+            <h1>forecast...<span></span></h1>
+            <a href="./forecast.html" type="button" class="cta">Find out</a>
+        </div>
+    </div>
+</section>
+    <!--End of Cover Page-->
+
+
+
+<!--weather Section-->
+
+<!--End of weather Section-->
+
+<!-- About Section-->
+<section id="about">
+    <div class="about container">
+        <div class="col-left">
+            <div class="about-img">
+                <img src="img/weather reporter.jpg" alt="img">
+            </div>
+        </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>Us</span></h1>
+            <h2>WEEWUUU Weather Station</h2>
+            <p>Get the forecast for today from a click of  a button!</p>
+            <!-- <a href="#"class="cta">Listen now</a> -->
+        
+         
+        </div>
+    </div>
+</section>
+<!-- End of About Section-->
+
+
+<!--Contact Info-->
+<section id="contact">
+    <div class="contact container">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contact-items">
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>+(49) 63356655</h2>
+                <h2>+(49) 62353535</h2>
+            </div>
+        </div>
+        <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+            <div class="contact-info">
+            <h1>Email</h1>
+            <h2> media@nia.com.de</h2>
+            <h2>weathur@nia.com.de</h2>
+        </div>
+    </div>
+    <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+        <div class="contact-info">
+        <h1>Company</h1>
+        <h2>WEEWUUU Weather Co.</h2>
+        <h2>Based in Munich, Germany</h2>
+    </div>
+</div>
+    </div>
+    </div>
+</section>
+<!-- End of Contact Section-->
+
+<!--FAQ
+<div id="overlay">
+    <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>Feedback </h1>>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Your Email">
+        <small class="error"></small>
+
+        <label for="message">Comments:</label>
+        <textarea id="message" placeholder="any comments? ʕ•́ᴥ•̀ʔっ♡" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+            <input type="submit" value="Send Message">
+            <p id="Success"></p>
+        </div>
+    </form>
+</div>
+End of FAQ-->
+
+<!-- Footer -->
+<section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>Ha</span>ziq |<span> Ah</span>mad</h1></div>
+        <h2>WEEWUUU 🞮 Collaboration</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.facebook.com/openweathermap/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.instagram.com/openweathermap/?hl=en"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://twitter.com/openweathermap?lang=en"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.linkedin.com/company/openweathermap"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"></a>
+            </div>
+        </div>
+        <p>Copyrights © 2022 Haziq | Ahmad. All rights reserved</p>
+    </div>
+</section>
+<!-- End of Footer -->
+<script src="./script.js"></script>
 </body>
 </html>
