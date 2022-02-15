@@ -31,7 +31,8 @@ img {
     object-fit: cover;
 }
 p {
-    color: rgb(73, 67, 67);
+   /* color: rgb(73, 67, 67); */
+    color: white;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
