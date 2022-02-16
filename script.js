@@ -28,7 +28,7 @@ menu_item.forEach((item) => {
         mobile_menu.classList.toggle('active');
     })
 })
-
+/*
 btnScrollToTop.addEventListener("click", function() {
     //window.scrollTo(0,0);
     window.scrollTo({
@@ -38,7 +38,7 @@ btnScrollToTop.addEventListener("click", function() {
     }); 
 
 
-});
+});*/
 
 
 
