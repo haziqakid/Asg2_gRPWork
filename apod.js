@@ -1,5 +1,5 @@
 /* APOD js */
-const apiKey = "Tz3uI31nekYqEeaaVRPt13ecvGbKh3nQW7dKt0AR";
+//const apiKey = "Tz3uI31nekYqEeaaVRPt13ecvGbKh3nQW7dKt0AR";
 const apodUrl = "https://api.nasa.gov/planetary/apod";
 const afeedUrl = "https://api.nasa.gov/neo/rest/v1/feed";
 
