@@ -85,6 +85,7 @@ class coreDomElements {
 class displayForecast {
     constructor() {
         this.imageURL = 'https://www.metaweather.com/static/img/weather'; 
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900?" + name + "')"
     }
     showTodaysForecastDetails({name, value, unit}) {
         $(`#forecast-details`).append(`
@@ -245,7 +246,6 @@ class requestController {
 
         this.showRequestInProgress(); // loading screen when press submit method
         this.fetchWeather(query);
-
     }
     
     registerEventListener(){ 
