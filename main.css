@@ -435,6 +435,7 @@ h1.temp {
 }
 #about .col-right p { /* download listen button */
     margin-bottom: 20px;
+    color: black;
 }
 #about .col-right .cta {
     color: black;
