@@ -31,7 +31,16 @@ a {
 	text-decoration: none;
 }
 
-section {
+/* 4 day forecast */
+.animate__fadeIn {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.25s;
+}
+
+section { /* faq section */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -450,6 +459,8 @@ p {
 
 }
 /* end of footer */
+
+
 
 @media only screen and (max-width:768px) {
     #contact .wrapper {
