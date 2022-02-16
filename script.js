@@ -1,3 +1,44 @@
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul'); //bar
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container')
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+
+hamburger.addEventListener('click',() => {
+    hamburger.classList.toggle('active');
+    mobile_menu.classList.toggle('active');
+});
+
+document.addEventListener('scroll', ()=> {
+    var scroll_position = window.scrollY;
+    if(scroll_position > 250)
+    {
+        header.style.backgroundColor = "#29323c";
+    }
+    else 
+    {
+        header.style.backgroundColor = 'transparent';
+    }
+});
+
+menu_item.forEach((item) => {
+    item.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        mobile_menu.classList.toggle('active');
+    })
+})
+
+btnScrollToTop.addEventListener("click", function() {
+    //window.scrollTo(0,0);
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    }); 
+
+
+});
 
 
 
@@ -14,6 +55,7 @@
 
 
 
+/*
 let weather = {
     //"apiKey": "3451f3fa3c5b68c76fb330939f273eda",
     fetchWeather: function (city) {
@@ -45,4 +87,4 @@ let weather = {
     search: function() {
         this.fetchWeather(document.querySelector(".search-bar").value);
     }
-};
+};*/

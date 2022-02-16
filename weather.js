@@ -12,7 +12,7 @@ menu_item.forEach((item) => {
         hamburger.classList.toggle('active');
         mobile_menu.classList.toggle('active');
     })
-})
+}) 
 
 let weather = {
     "apiKey": "3451f3fa3c5b68c76fb330939f273eda",
