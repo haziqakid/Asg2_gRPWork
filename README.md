@@ -39,25 +39,50 @@ Advantages
 
 ## Technologies Used
 
-- .html - to create the website
-- .css  - to "beautify" and make the website neater
-- .js   - to make web page interactive [in progress]
-- API   - provide access to current weather data [in progress]
-- JSON  - enables animation [in progress]
-- lottie - JSON-based animation file
+- HTML - to create the website
+- CSS - to "beautify" and make the website neater
+- JAVASCRIPT - to make web page interactive
+- JSON
+- JQUERY
+- API -  provide access to current weather data & APOD
+- BOOTSTRAP
+- LOTTIE - JSON-based animation file
 
 ## Testing
 
-tested API using https://www.metaweather.com/api/
+1. Navigation
+    - Ensure that the navigation stays in place and does not get messed up
+    - Check that the navigation bar links work
+    - Ensure hamburger menu works
+
+2. Responsiveness
+    - Ensure flex works and displayed correctly
+    - Ensure it is displayed correctly on mobile as well
+
+3. Weather & 4-day Forecast
+    - Ensure that the user can search for any country
+    - Ensure that the results are accurately shown 
+    - Ensure that the 4-day forecast gives the next 4 days forecast 
+    - Ensure that whatever user searches for in weather.html returns the country of what user searches for (background image)
+
+4. Feedback
+    - Ensure text field is correctly displayed
+    - Ensure nav bar is working
+    - Ensure hamburger menu is working
+
+5. APOD (Astronomy Picture Of the Day)
+    - Ensure API is able to fetch data (might not work sometimes)
+    - Ensure when user select date, it shows the astroid history below (takes about 30 secs to load)
+    - Ensure background is playing as animation
 
 ## Credits
 
-### Content
+1. API
+- https://www.metaweather.com/api/ | https://openweathermap.org/api | https://api.nasa.gov/
 
-### Media
-- The photos used in this site were obtained from ...
-https://www.clipartmax.com/middle/m2i8d3K9b1G6Z5H7_weather-weather-forecast-logo/
+2. Lottie
+- https://lottiefiles.com/
 
-### Acknowledgements
+3. Unsplash
+- https://unsplash.com/
 
-- I received inspiration for this project from X
