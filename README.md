@@ -1,6 +1,7 @@
 # ID Assignment 2
 
-# Ahmad Mikail Bin Moktar (S10227809) | Haziq Akid Bin Shahrudin (S10189234)
+# Ahmad Mikail Bin Moktar (S10227809) 
+# Haziq Akid Bin Shahrudin (S10189234)
 
 # Theme 5: Propose your own
 
