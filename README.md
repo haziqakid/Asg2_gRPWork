@@ -1,10 +1,17 @@
-# Asg2_gRPWork
+# ID Assignment 2
 
-# What's the weather?
+# Ahmad Mikail Bin Moktar (S10227809) | Haziq Akid Bin Shahrudin (S10189234)
+
+# Theme 5: Propose your own
+
+Website name: Weather How?
 
 Have you ever wondered how the weather might be in an hour or a day's time? Don't worry, our user-friendly weather app can show you the weather for now, the following hour, and anything else you might need.
 
 It's free, accurate, and uncluttered.
+
+Anyone who wants to find out more about the weather can utilize this website. This service is primarily used by people who are planning vacations and want to check the weather in a new country. It's also used by people who want to have a good time outside.
+
  
 ## Design Process
  
