@@ -86,3 +86,7 @@ Advantages
 3. Unsplash
 - https://unsplash.com/
 
+4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+
+5. https://www.w3schools.com/
+
